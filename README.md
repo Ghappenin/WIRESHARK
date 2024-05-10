@@ -1,7 +1,9 @@
 <h1>Wireshark- Packet Capture </h1>
 
 <h2>Description</h2>
-Project consists of simple walk through steps on how to set up a home lab for Elastic Stack Security Information and Event Management (SIEM) using the Elastic Web portal and a Kali Linux VM. You will also learn how to generate security events on the Kali VM, set up an agent to forward data to the SIEM, and query and analyze the logs in the SIEM.
+Project consists of downloading current operating system version of Wireshark. Learn to execute packet capture on an wireless port and save it to file. Use a display filter to detect HTTPS packets. Visit a web page and detect its IP address using a display filter. End with locating all HTTPS packets from a capture not containing a certain IP address:
+
+
 
 <br />
 
@@ -12,15 +14,13 @@ Project consists of simple walk through steps on how to set up a home lab for El
 
 <h2>Downloads<h2>
  
-- <b>[VirtualBox 7.0.14](https://www.virtualbox.org/wiki/Downloads)</b>
-- <b>[Kali Linux VM](https://www.kali.org/get-kali/#kali-platforms)</b>
-- <b>[Elastic account](https://cloud.elastic.co/registration)</b>
+- <b>[Wireshark 4.2.4 Intel](https://www.wireshark.org/)</b>
 
 <h2>Project walk-through:</h2>
 
 <p align="center">
-Download VirtualBox: <br/>
-<img src="https://i.imgur.com/TrQnZkK.png" height="80%" width="80%" />
+Download Wireshark: <br/>
+<img src="https://i.imgur.com/tJvjb7u.png" height="80%" width="80%" />
 <br />
 <br />
 Download Kali Linux: <br/>
