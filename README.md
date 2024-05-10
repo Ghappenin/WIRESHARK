@@ -31,16 +31,20 @@ Upper left click -green- "sharkfin" to begin your capture: <br/>
 <img src="https://i.imgur.com/L84dc7r.png" height="80%" width="80%" />
 <br />
 <br />
-With "Start" launch Kali Box:  <br/>
-<img src="https://i.imgur.com/E0s7KwZ.png" height="80%" width="80%" />
+Stop your capture with -red- box and save to your file of choosing:  <br/>
+<img src="https://i.imgur.com/iSeAtMG.png" height="80%" width="80%" />
 <br />
 <br />
-Log into Elastic SIEM -> Navigate to 'Integrations' -> Download "Elastic Defend":  <br/>
-<img src="https://i.imgur.com/BXmTwTc.png)height=" height=80%" width="80%" />
+Use a display filter to detect HTTPS packets:  <br/>
+ ●To display certain packets in an existing packet capture, use a display filter <br/>
+ ●To display only HTTPS traffic, use a filter on TCP port 443: tcp.port == 443 <br/>
+<img src="https://i.imgur.com/oMqtdb8.png" height=80%" width="80%" />
 <br />
 <br />
-Paste command into Kali Terminal -> "ENTER" for install:  <br/>
-<img src="https://i.imgur.com/NyjiXmG.png" height="80%" width="80%" />
+Use a display filter to detect DNS (Domain Name System)if websites and subsites visited:  <br/>
+<img src="https://i.imgur.com/c290sSx.png" height="80%" width="80%" />
+<br />
+ - <b>https://wiki.wireshark.org/DisplayFilters
 <br />
 <br />
 Once message “Elastic Agent has been successfully installed.” It will automatically start collecting and forwarding logs to your Elastic SIEM  <br/>
