@@ -23,12 +23,12 @@ Download Wireshark: <br/>
 <img src="https://i.imgur.com/tJvjb7u.png" height="80%" width="80%" />
 <br />
 <br />
-Download Kali Linux: <br/>
-<img src="https://i.imgur.com/M6gccC7.png" height="80%" width="80%" />
+Select source of capture: Wireless, Ethernet etc: <br/>
+<img src="https://i.imgur.com/aW7aT8R.png" height="80%" width="80%" />
 <br />
 <br />
-Using '+' add Kali Linux download to VirtualBox: <br/>
-<img src="https://i.imgur.com/eoJHcJ9.png" height="80%" width="80%" />
+Upper left click -green- "sharkfin" to begin your capture: <br/>
+<img src="https://i.imgur.com/L84dc7r.png" height="80%" width="80%" />
 <br />
 <br />
 With "Start" launch Kali Box:  <br/>
