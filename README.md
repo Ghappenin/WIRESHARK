@@ -47,51 +47,13 @@ Use a display filter to detect DNS (Domain Name System)if websites and subsites 
  - <b>https://wiki.wireshark.org/DisplayFilters
 <br />
 <br />
-Once message “Elastic Agent has been successfully installed.” It will automatically start collecting and forwarding logs to your Elastic SIEM  <br/>
-<img src="https://i.imgur.com/AW19rNt.png" height="80%" width="80%" />
+Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
+<img src="https://i.imgur.com/OmaoGWR.png" height="80%" width="80%" />
 <br />
 <br />
-Verify that the agent has been installed correctly by running this command: sudo systemctl status elastic-agent.service  <br/>
-<img src="https://i.imgur.com/BSbRH5o.png" height="80%" width="80%" />
-<br />
-<br />
-Create Security Events by using "Nmap" (“nmap -sS <ip address>”, “nmap -sT <ip address>”, “nmap -p- <ip address>”etc..) <br/>
-<img src="https://i.imgur.com/zCVJzfU.png" height="80%" width="80%" />
-<br />
-<br />
-Navigate to "Logs" in Elastic to view logs fron Kali VM  <br/>
-<img src="https://i.imgur.com/aj1TnOD.png" height="80%" width="80%" />
-<br />
-<br />
-Filter the results by using "Search"  <br/>
-<img src="https://i.imgur.com/byjLPJn.png" height="80%" width="80%" />
-<br />
-<br />
-Click on the menu icon on the top-left, then under “Analytics,” click on “Dashboards.” -> Create a Dashboard to Visualize the Events  <br/>
-<img src="https://i.imgur.com/BPXi94a.png" height="80%" width="80%" />
-<br />
-<br />
-Click on the “Create Visualization” button to add a new visualization to the dashboard <br/>
-Select “Area” or “Line” as the visualization type. This will create a chart that shows the count of events over time. <br/>
-In the “Metrics” section, select “Count” as the vertical field type and “Timestamp” for the horizontal field. This will show the count of events over time. <br/>
-<br />
-<br /> 
-Click on the “Save” button to save the visualization and then complete the rest of the settings. <br/>
-<img src="https://i.imgur.com/3CYbLef.png" height="80%" width="80%" />
-<br />
-<br /> 
-Set an "ALERT" -> Click on the menu icon on the top-left, then under “Security,” click on “Alerts.” <br>
-<img src="https://i.imgur.com/FC6LSnF.png" height="80%" width="80%" />" 
-<br />
-<br /> 
-Click on the “Create new rule” button at the top right <br>
-Under the “Define rule” section, select the “Custom query” option from the dropdown menu <br>
-Under “Custom query,” set the conditions for the rule <br>
-Set the severity level for the alert. Keep all the other default settings under “Schedule rule” and click “Continue.” <br>
-<br />
-<br /> 
-Finally, click the “Create and enable rule” button to create the alert. Once you’ve created the alert, it will monitor your logs for Nmap scan events <br>
-<img src="https://i.imgur.com/YaLzbD3.png" height="80%" width="80%" />" 
+●A Conditional statement may be used to include and eliminate packets from a Wireshark capture: !(ip.addr == 8.43.85.97) and tcp.port == 443
+
+●A compound conditional should include parentheses to avoid order of execution errors: !(ip.addr == 8.43.85.97) and (tcp.port == 80 or tcp.port == 443)
 
 
 
