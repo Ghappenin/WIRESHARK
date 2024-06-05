@@ -24,31 +24,31 @@ Download Wireshark: <br/>
 <br />
 <br />
 Select source of capture: Wireless, Ethernet etc: <br/>
-<img src="https://i.imgur.com/aW7aT8R.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/00SfRUR.png" height="80%" width="80%" />
 <br />
 <br />
 Upper left click -green- "sharkfin" to begin your capture: <br/>
-<img src="https://i.imgur.com/L84dc7r.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/lbyR5hY.png" height="80%" width="80%" />
 <br />
 <br />
 Stop your capture with -red- box and save to your file of choosing:  <br/>
-<img src="https://i.imgur.com/iSeAtMG.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/UN55BQU.png" height="80%" width="80%" />
 <br />
 <br />
 Use a display filter to detect HTTPS packets:  <br/>
  ●To display certain packets in an existing packet capture, use a display filter <br/>
  ●To display only HTTPS traffic, use a filter on TCP port 443: tcp.port == 443 <br/>
-<img src="https://i.imgur.com/oMqtdb8.png" height=80%" width="80%" />
+<img src="https://i.imgur.com/W2nbWQN.png" height=80%" width="80%" />
 <br />
 <br />
 Use a display filter to detect DNS (Domain Name System)if websites and subsites visited:  <br/>
-<img src="https://i.imgur.com/c290sSx.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/2xEq9cr.png" height="80%" width="80%" />
 <br />
  - <b>https://wiki.wireshark.org/DisplayFilters
 <br />
 <br />
 Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
-<img src="https://i.imgur.com/OmaoGWR.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
 <br />
 <br />
 ●A Conditional statement may be used to include and eliminate packets from a Wireshark capture: !(ip.addr == 8.43.85.97) and tcp.port == 443
