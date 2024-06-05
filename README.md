@@ -20,7 +20,7 @@ Project consists of downloading current operating system version of Wireshark. L
 
 <p align="center">
 Download Wireshark: <br/>
-<img src="https://i.imgur.com/tJvjb7u.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/FVWrYiX.png" height="80%" width="80%" />
 <br />
 <br />
 Select source of capture: Wireless, Ethernet etc: <br/>
